@@ -1,0 +1,178 @@
+p {
+  margin: 0;
+}
+
+.dropdown {
+  width: fit-content;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--purple-800-brand);
+  border-radius: 6px;
+  min-width: 160px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: var(--white);
+  padding: .5em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--white);
+  color: var(--purple-800-brand);
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-drop-gray .dropdown-content {
+  background-color: var(--white);
+}
+
+.nav-drop-gray .dropdown-content a{
+  color: var(--gray-700-brand);
+}
+
+.nav-drop-gray .dropdown-content a:hover {
+  background-color: var(--gray-200);
+}
+
+.nav-drop-primary .dropdown-content {
+  background-color: var(--white);
+}
+
+.nav-drop-primary .dropdown-content a {
+  color: var(--purple-800-brand);
+}
+
+.nav-drop-primary .dropdown-content a:hover {
+  background-color: var(--purple-800-brand);
+  color: var(--white);
+}
+
+.nav-drop-primary .btn-outline {
+  border-color: var(--white);
+}
+
+.nav-drop-primary .btn-outline:hover, .nav-drop-primary .btn-outline:focus {
+  background-color: var(--white);
+  color: var(--purple-800-brand);
+  border-color: var(--purple-800-brand);
+}
+
+details {
+  font-size: 18px;
+  border: 2px solid var(--purple-800-brand);
+  border-radius: 6px;
+  width: 250px;
+}
+
+summary {
+  background-color: var(--purple-800-brand);
+  color: var(--white);
+  padding: .5em;
+}
+
+.accordion-content p, .faq-content p {
+  padding: .5em;
+}
+
+.faq {
+  border: none;
+}
+
+.faq summary {
+  background-color: var(--white);
+  color: var(--gray-700-brand);
+}
+
+.faq-content {
+  border: 2px solid var(--gray-700-brand);
+  border-radius: 6px;
+}
+
+spicy-sections {
+  /* Big hand-wave over how we'd ultimately express this, but for this custom element, this is how you inform when you'd like to emply which affodances 'collapse', 'tab-bar' and 'exclusive-collapse' are the available affordances.  Anything else is, effectively "plain" or "none". It is only read once.
+  */
+  --const-mq-affordances: [screen and (max-width: 40em)] collapse | [screen and (min-width: 60em)] tab-bar;
+  display: block;
+  padding: 1em;
+}
+
+/* just normal css/dom any heading works */
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* you can tell there are none employed */
+h2:not([affordance] *) {
+  margin-bottom: 0.5em;
+}
+
+/* content panels when plain */
+h2:not([affordance] *):not(:first-child) {
+  margin-top: 1.5em;
+}
+
+/* content panels, always */
+spicy-sections h2+* {
+  margin-top: 0;
+}
+
+/* accordion buttons */
+[affordance="collapse"] {
+  --heading-size: 1em;
+}
+
+/* the pseudo element created around the tabs, when it exists */
+::part(tab-list) {
+  display: flex;
+}
+
+/* only when they're tabs */
+[affordance="tab-bar"] h2 {
+  padding: 0.5em;
+  cursor: pointer;
+  border: 2px solid var(--white);
+}
+
+[affordance="tab-bar"] h2:hover {
+  border-radius: 6px 6px 0 0;
+  border-color: var(--purple-800-brand);
+}
+
+/* Only when they're tabs and selected */
+[affordance="tab-bar"] h2[tabindex="0"] {
+  background-color: var(--purple-800-brand);
+  border-radius: 6px 6px 0 0;
+  color: var(--white);
+  border: 2px solid var(--purple-800-brand);
+}
+
+/* Tabs that aren't selected */
+[affordance="tab-bar"] h2:not([tabindex="0"]) {
+  color: var(--purple-800-brand);
+}
+
+/* content, when it's tabs */
+[affordance="tab-bar"] [role="tabpanel"] {
+  border: 2px solid var(--purple-800-brand);
+  padding: .5em;
+  border-radius: 6px;
+  font-size: 18px;
+  color: var(--gray-700-brand);
+  width: 300px;
+}

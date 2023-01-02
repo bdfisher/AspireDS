@@ -1,0 +1,77 @@
+@font-face { font-family: Helvetica; font-weight: bold; src: local(Helvetica Neue Bold); }
+@font-face { font-family: Helvetica; font-weight: normal; src: local(Helvetica Neue); }
+
+:root{
+    font-size: 1.125rem;
+}
+
+
+html{
+    line-height: 1.5;
+    background-color: white;
+    color: var(--gray-700-brand);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+main{
+    max-width: 1000px;
+    margin: 1em auto;
+}
+
+p{
+    max-width: 80ch;
+    margin-bottom: 0.75em;
+}
+
+a:not(.btn){
+    color: inherit;
+    text-decoration-color: var(--purple-800-brand);
+    will-change: color;
+    transition: color 60ms ease-in-out;
+}
+a:not(.btn):hover{
+    color: var(--purple-800-brand);
+}
+
+
+h1,h2,h3,h4,h5{
+    color: var(--purple-800-brand);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+h1, .h1 {font-size: 3.052rem;}
+h2, .h2 {font-size: 2.441rem;}
+h3, .h3 {font-size: 1.953rem;}
+h4, .h4 {font-size: 1.563rem;}
+h5, .h5 {font-size: 1.25rem;}
+small, .text_small {font-size: 0.8rem;}
+
+@media only screen and (max-width: 768px) {
+    h1, .h1 {font-size: 1.802rem;}
+    h2, .h2 {font-size: 1.602rem;}
+    h3, .h3 {font-size: 1.424rem;}
+    h4, .h4 {font-size: 1.266rem;}
+    h5, .h5 {font-size: 1.125rem;}
+}
+
+/* FUTURE DARK MODE
+
+@media (prefers-color-scheme: dark) {
+    h1,h2,h3,h4,h5{
+        color: var(--purple-200);
+    }
+    html{
+        color: var(--gray-100);
+        background-color: #1a1221;
+    }
+}
+*/
+
+@media (prefers-reduced-motion) {
+    *{
+        transition-duration: 0ms;
+        animation-duration: 0ms;
+    }
+}

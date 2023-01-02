@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="inputs.css">
+  <link rel="stylesheet" href="/AspireDS/dist/styledictionary/css/variables.css">
+<script src="https://kit.fontawesome.com/628dca6be3.js" crossorigin="anonymous"></script>
+  <title>Inputs</title>
+</head>
+<body>
+  <form action="">
+    <label for="default">Text Input</label><br>
+    <input type="text" name="default" id="default"> <br>
+    <label for="default-disabled">Text Input</label><br>
+    <input type="text" name="default-disabled" id="default-disabled" disabled> <br>
+    <div class="input-icon">
+      <label for="email">Email</label><br>
+      <span class="fa-solid fa-envelope icon"></span>
+      <input type="email" name="email" id="email"> <br>
+    </div>
+    <div class="input-icon" data-error="Invalid email">
+      <label for="email2">Email2</label><br>
+      <span class="fa-solid fa-envelope icon"></span>
+      <input type="email" name="email" id="email2" value="example2fglife.com">
+    </div>
+    <div class="input-hint" data-hint="Must contain six characters">
+      <label for="hint">Password</label> <br>
+      <input type="text" name="password" id="hint">
+    </div>
+    <div class="search">
+      <input type="search" name="search-field" id="search-field" class="search-field">
+      <button class="search-submit"><span class="fa-solid fa-magnifying-glass"></span></button>
+    </div>
+  </form>
+</body>
+</html>

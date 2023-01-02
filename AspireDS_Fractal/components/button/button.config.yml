@@ -1,0 +1,4 @@
+context:
+  btnText: "Action"
+
+default: primary
