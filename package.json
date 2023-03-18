@@ -3,8 +3,4 @@
     "@frctl/fractal": "^1.5.14",
     "@zachleat/details-utils": "^2.0.2"
   }
-  
-  "scripts": {
-    "deploy": "gh-pages -d /AspireDS_Fractal/build"
-  }
 }
