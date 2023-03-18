@@ -1,1 +1,1 @@
-{"name":"aspire-ds-fractal","version":"0.1.0","dependencies":{"@frctl/fractal":"^1.5.14","@frctl/mandelbrot":"^1.10.2"},"scripts":{"fractal:start":"fractal start --sync","fractal:build":"fractal build", "deploy": "fractal build && fractal start && gh-pages -d /AspireDS_Fractal/build"}}
+{"name":"aspire-ds-fractal","version":"0.1.0","dependencies":{"@frctl/fractal":"^1.5.14","@frctl/mandelbrot":"^1.10.2"},"scripts":{"fractal:start":"fractal start --sync","fractal:build":"fractal build"}}
