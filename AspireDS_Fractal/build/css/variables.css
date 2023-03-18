@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 19 Jul 2022 15:43:39 GMT
+ */
+
+:root {
+  --disabled-color: #e7e8ea;
+  --error-color: #c41e3d;
+  --blue-900-brand: #003c71;
+  --black: #000000;
+  --purple-500: #743da1;
+  --purple-600: #663491;
+  --purple-700: #5e308a;
+  --purple-900: #4f277a;
+  --white: #ffffff;
+  --gray-200: #e7e8ea;
+  --gray-100: #f0f1f4;
+  --yellow-400: #ffb300;
+  --orange-500: #ffa600;
+  --purple-100: #d3bfe3;
+  --purple-200: #b794d1;
+  --purple-300: #9967bf;
+  --blue-200: #8ebfdd;
+  --blue-100: #b8d8ea;
+  --gray-800: #393a3b;
+  --gray-700-brand: #57585a;
+  --gray-600: #6a6b6e;
+  --gray-500: #939496;
+  --gray-400: #b2b4b6;
+  --gray-300: #d6d8da;
+  --purple-400-brand: #8246af;
+  --blue-800: #105890;
+  --blue-700: #1968a1;
+  --blue-600: #2578b2;
+  --blue-500: #2e85be;
+  --blue-400: #4995c6;
+  --blue-300: #66a6ce;
+  --green-700: #5f9a00;
+  --green-600: #74ad00;
+  --green-500-brand: #84bd00;
+  --green-400: #97c73e;
+  --green-300: #abd064;
+  --green-200: #c4dd92;
+  --green-100: #dcebbd;
+  --orange-900: #ef6d00;
+  --orange-800: #f57d00;
+  --orange-700: #fb8d00;
+  --orange-600-brand: #ff9800;
+  --green-900: #1b6500;
+  --green-800: #498700;
+  --yellow-300-brand: #fec10d;
+  --yellow-200: #fecb2a;
+  --yellow-100: #fed650;
+  --purple-800-brand: #582c83;
+  --red: #c41e3d;
+  --default-font-family: Helvetica Neue;
+  --default-font-weight: Regular;
+  --small-font-family: Helvetica Neue;
+  --small-font-weight: Regular;
+  --large-font-family: Helvetica Neue;
+  --large-font-weight: Regular;
+  --default-font-size: 18rem;
+  --small-font-size: 16rem;
+  --large-font-size: 20rem;
+}

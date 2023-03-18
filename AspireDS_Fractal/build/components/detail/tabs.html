@@ -1,0 +1,3169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    window.frctl = {
+        env: 'static'
+    };
+    </script>
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/ico">
+<style>
+    :root {
+        
+        --skin-accent: 88, 44, 131;
+        
+        
+        --skin-complement: 255, 255, 255;
+        
+        
+        --skin-links: 88, 44, 131;
+        
+    }
+</style>
+
+<link rel="stylesheet" href="../../themes/mandelbrot/css/default.css?cachebust=1.10.2" type="text/css">
+
+<link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.10.2" type="text/css">
+
+
+<title>Tabs | Aspire Design System</title>
+
+</head>
+<body>
+
+
+
+<div class="Frame" id="frame">
+
+    <div class="Frame-header">
+        <div class="Header">
+    <button class="Header-button Header-navToggle" data-action="toggle-sidebar">
+        <div class="Header-navToggleIcon Header-navToggleIcon--open">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+</svg>
+
+        </div>
+        <div class="Header-navToggleIcon Header-navToggleIcon--closed">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+</svg>
+
+        </div>
+    </button>
+    <a href="../../index.html" class="Header-title" data-pjax>Aspire Design System</a>
+</div>
+
+    </div>
+
+    <div class="Frame-body" data-role="body">
+
+        <div class="Frame-panel Frame-panel--main" data-role="main">
+            <div class="Frame-inner" id="pjax-container">
+            
+
+<div class="Pen" data-behaviour="pen" id="pen-a744360511c0d3e3505468787b43f7c1">
+
+    
+
+    <div class="Pen-panel Pen-header">
+    <h1 class="Pen-title">
+        <a class="Pen-previewLink" href="../preview/tabs.html" title="Preview">
+            Tabs
+            <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+
+        </a>
+    </h1>
+
+    <span class="Pen-preview-size" data-role="preview-size"></span>
+
+    
+
+<div class="Status Status--tag">
+
+<label class="Status-label" style="background-color: #84BD00; border-color: #84BD00;">Ready</label>
+
+</div>
+
+
+</div>
+
+
+    <div class="Pen-panel Pen-preview Preview" data-behaviour="preview" id="preview-a744360511c0d3e3505468787b43f7c1">
+    <div class="Preview-wrapper" data-role="resizer">
+        <div class="Preview-resizer">
+             <iframe
+                class="Preview-iframe"
+                data-role="window"
+                src="../preview/tabs.html"
+                 style=""
+                marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" scrolling="yes">
+            </iframe>
+        </div>
+        <div class="Preview-handle" data-role="resize-handle"></div>
+        <div class="Preview-overlay"></div>
+    </div>
+</div>
+
+
+    <div class="Pen-handle Pen-handle--browser" data-role="resize-handle"></div>
+
+    <div class="Pen-panel Pen-info" data-role="info">
+    <div class="Browser" data-behaviour="browser" id="browser-a744360511c0d3e3505468787b43f7c1">
+
+    
+
+<div class="Browser-controls">
+    <ul class="Browser-tabs">
+        
+        
+        <li class="Browser-tab Browser-tab--html is-active " data-role="tab">
+            <a href="#browser-a744360511c0d3e3505468787b43f7c1-panel-html">
+                HTML
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Browser-tab Browser-tab--resources" data-role="tab">
+            <a href="#browser-a744360511c0d3e3505468787b43f7c1-panel-assets">Assets</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Browser-tab Browser-tab--notes" data-role="tab">
+            <a href="#browser-a744360511c0d3e3505468787b43f7c1-panel-notes">
+                Notes
+            </a>
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+    
+    
+<div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-a744360511c0d3e3505468787b43f7c1-panel-html">
+    <code class="Code Code--lang-html hljs">
+        
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">spicy-sections</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Tab 1<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+            The <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tab-bar<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> affordance
+            can use shadow-dom to establish
+            a styleable tab-bar and panels.
+            The required parts can be exposed for styling
+            with consistent pseudo-elements.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Tab 2<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+            The accordion-like <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>collapse<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> affordance
+            also uses shadow-dom to establish
+            summary-details like behavior for each section,
+            with an option to make the toggle-states
+            <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>exclusive-collapse<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Tab 3<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+            The fallback state is simply structured HTML,
+            without any show/hide affordances.
+            This does not require any special styling.
+        <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">spicy-sections</span>&gt;</span></pre>
+        
+    </code>
+</div>
+
+    
+    
+
+
+<div class="Browser-panel Browser-resources" data-role="tab-panel" id="browser-a744360511c0d3e3505468787b43f7c1-panel-assets">
+    <div class="FileBrowser">
+
+        <div class="FileBrowser-selectWrapper">
+            <label class="FileBrowser-select-label" for="filebrowser-select">File:</label>
+            <select class="FileBrowser-select" id="filebrowser-select">
+                
+                <option value="file-1efb762fe147d564138046e800d37180">SpicySections.js</option>
+                
+                <option value="file-28da5135baee0a51ae62a53274bcd64c">dropdowns.css</option>
+                
+            </select>
+        </div>
+
+        
+        <div class="FileBrowser-item is-active" id="file-1efb762fe147d564138046e800d37180" data-role="resource-preview">
+            <ul class="Meta">
+                <li class="Meta-item">
+                    <strong class="Meta-key">Content:</strong>
+                    <span class="Meta-value">
+                        <div class="FileBrowser-itemPreview">
+                            
+                            <code class="Code Code--lang-JavaScript FileBrowser-code hljs">
+                                <pre><span class="hljs-comment">/**
+ * This work is licensed under the W3C Software and Document License
+ * (http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document).
+ */</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MediaAffordancesElement</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">HTMLElement</span> </span>{
+  <span class="hljs-function"><span class="hljs-title">constructor</span>(<span class="hljs-params"></span>)</span> {
+    <span class="hljs-built_in">super</span>();
+
+    <span class="hljs-built_in">this</span>.mqls = [];
+    <span class="hljs-built_in">this</span>.observers = [];
+    <span class="hljs-built_in">this</span>.supportedAffordances = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Set</span>();
+  }
+
+  <span class="hljs-function"><span class="hljs-title">observeAffordanceChange</span>(<span class="hljs-params">cb</span>)</span> {
+    <span class="hljs-built_in">this</span>.observers.push(cb);
+  }
+
+  <span class="hljs-function"><span class="hljs-title">notifyChange</span>(<span class="hljs-params"></span>)</span> {
+    <span class="hljs-keyword">let</span> intersection = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Set</span>();
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> elem <span class="hljs-keyword">of</span> <span class="hljs-built_in">this</span>.mqls) {
+      <span class="hljs-keyword">if</span> (elem.matches &amp;&amp; <span class="hljs-built_in">this</span>.supportedAffordances.has(elem.__affordance)) {
+        intersection.add(elem.__affordance);
+      }
+    }
+
+    <span class="hljs-keyword">let</span> arr = [...intersection];
+
+    <span class="hljs-keyword">if</span> (arr.length &gt; <span class="hljs-number">0</span>) {
+      <span class="hljs-built_in">this</span>.setAttribute(<span class="hljs-string">&#x27;mq-matched&#x27;</span>, arr.join(<span class="hljs-string">&#x27; &#x27;</span>));
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-built_in">this</span>.removeAttribute(<span class="hljs-string">&#x27;mq-matched&#x27;</span>);
+    }
+
+    <span class="hljs-keyword">let</span> affordance = arr[<span class="hljs-number">0</span>];
+
+    <span class="hljs-keyword">if</span> (affordance) {
+      <span class="hljs-built_in">this</span>.setAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>, affordance);
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-built_in">this</span>.removeAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>);
+    }
+
+    <span class="hljs-built_in">this</span>.observers.forEach(<span class="hljs-function">(<span class="hljs-params">cb</span>) =&gt;</span> {
+      cb(intersection, <span class="hljs-built_in">this</span>.__matching);
+    });
+  }
+
+  <span class="hljs-keyword">static</span> <span class="hljs-keyword">get</span> <span class="hljs-title">observedAttributes</span>() {
+    <span class="hljs-keyword">return</span> [<span class="hljs-string">&#x27;mq-affordances&#x27;</span>];
+  }
+
+  <span class="hljs-function"><span class="hljs-title">connectedCallback</span>(<span class="hljs-params"></span>)</span> {
+    <span class="hljs-keyword">let</span> newValue = getComputedStyle(<span class="hljs-built_in">this</span>).getPropertyValue(
+      <span class="hljs-string">&#x27;--const-mq-affordances&#x27;</span>
+    );
+
+    <span class="hljs-built_in">this</span>.connectListeners(newValue);
+  }
+
+  <span class="hljs-function"><span class="hljs-title">connectListeners</span>(<span class="hljs-params">newValue = <span class="hljs-string">&#x27;&#x27;</span></span>)</span> {
+    <span class="hljs-keyword">if</span> (newValue.trim().length === <span class="hljs-number">0</span>) {
+      <span class="hljs-keyword">return</span>;
+    }
+
+    newValue.split(<span class="hljs-string">&#x27;|&#x27;</span>).forEach(<span class="hljs-function">(<span class="hljs-params">segment</span>) =&gt;</span> {
+      <span class="hljs-keyword">let</span> mq = segment.trim().match(<span class="hljs-regexp">/\[([^\]]*)/</span>)[<span class="hljs-number">1</span>];
+      <span class="hljs-keyword">let</span> names = segment.replace(<span class="hljs-string">`[<span class="hljs-subst">${mq}</span>]`</span>, <span class="hljs-string">&#x27;&#x27;</span>).trim().split(<span class="hljs-string">&#x27; &#x27;</span>);
+      <span class="hljs-keyword">let</span> mql = <span class="hljs-built_in">window</span>.matchMedia(mq);
+
+      mql.__affordance = names[<span class="hljs-number">0</span>]; <span class="hljs-comment">// one for now</span>
+      mql.onchange = <span class="hljs-function">() =&gt;</span> <span class="hljs-built_in">this</span>.notifyChange();
+
+      <span class="hljs-built_in">this</span>.mqls.push(mql);
+    }, <span class="hljs-built_in">this</span>);
+
+    <span class="hljs-built_in">this</span>.notifyChange();
+  }
+
+  <span class="hljs-function"><span class="hljs-title">attributeChangedCallback</span>(<span class="hljs-params">name, oldValue, newValue</span>)</span> {
+    <span class="hljs-built_in">this</span>.connectListeners(newValue);
+  }
+}
+
+<span class="hljs-comment">// ----------------------------------------------------</span>
+
+(<span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-keyword">let</span> lastUId = <span class="hljs-number">0</span>;
+
+  <span class="hljs-keyword">let</span> nextUId = <span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`cp<span class="hljs-subst">${++lastUId}</span>`</span>;
+  };
+
+  <span class="hljs-keyword">let</span> getLabels = <span class="hljs-function">(<span class="hljs-params">regionset</span>) =&gt;</span> {
+    <span class="hljs-keyword">return</span> [...regionset.children].filter(
+      <span class="hljs-function">(<span class="hljs-params">el</span>) =&gt;</span> <span class="hljs-regexp">/^H\d$/</span>.test(el.tagName) || el.tagName === <span class="hljs-string">&#x27;SPICY-H&#x27;</span>
+    );
+  };
+
+  <span class="hljs-keyword">let</span> getContentEls = <span class="hljs-function">(<span class="hljs-params">regionset</span>) =&gt;</span> {
+    <span class="hljs-keyword">return</span> [...regionset.children].filter(<span class="hljs-function">(<span class="hljs-params">el</span>) =&gt;</span> !<span class="hljs-regexp">/^H\d$/</span>.test(el.tagName));
+  };
+
+  <span class="hljs-keyword">let</span> ensureId = <span class="hljs-function">(<span class="hljs-params">el</span>) =&gt;</span> {
+    el.id = el.id || nextUId();
+    <span class="hljs-keyword">return</span> el.id;
+  };
+
+  <span class="hljs-keyword">let</span> style = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&#x27;style&#x27;</span>);
+  style.innerHTML = <span class="hljs-string">`
+	:where(spicy-sections &gt; [affordance*=&quot;collapse&quot;])::before { 
+		content: &#x27; &#x27;;
+		display: inline-block;
+		width: 0.5em;
+		height: 0.75em;
+		margin: 0 0.4em 0 0;
+		transform: rotate(90deg);
+		background-image: url(&quot;data:image/svg+xml;charset=UTF-8,%3csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; xmlns:xlink=&#x27;http://www.w3.org/1999/xlink&#x27; x=&#x27;0px&#x27; y=&#x27;0px&#x27; width=&#x27;10px&#x27; height=&#x27;10px&#x27; viewBox=&#x27;0 0 270 240&#x27; enable-background=&#x27;new 0 0 270 240&#x27; xml:space=&#x27;preserve&#x27;%3e%3cpolygon fill=&#x27;black&#x27; points=&#x27;5,235 135,10 265,235 &#x27;/%3e%3c/svg%3e &quot;);
+		background-size: 100% 100%;
+	} 
+	:where(spicy-sections &gt; .hide) {
+		display: none !important;
+	} 
+	:where(spicy-sections &gt; [affordance*=&quot;collapse&quot;][aria-expanded=&quot;true&quot;])::before, 
+	:where(spicy-sections &gt; [affordance*=&quot;collapse&quot;][aria-expanded=&quot;true&quot;])::after {
+		transform: rotate(180deg);
+	}
+	`</span>;
+
+  <span class="hljs-built_in">document</span>.head.prepend(style);
+
+  <span class="hljs-keyword">const</span> template = <span class="hljs-string">`
+	&lt;style&gt;
+		:root {
+			font-size: 1rem;
+		}
+		:host([hidden]),
+		::slotted([hidden]) {
+			display: none;
+		}
+		
+		::slotted(spicy-h) {
+			display: block;
+		}
+		::slotted(h1),
+		::slotted(h2),
+		::slotted(h3),
+		::slotted(h4),
+		::slotted(h5),
+		::slotted(h6),
+		::slotted(spicy-h){
+			margin-right: 1rem;
+		}
+		[part=&quot;tab-bar&quot;] ::slotted([tabindex=&quot;0&quot;]) {
+			border-bottom: 1px solid blue;
+		}
+		.hide {
+			display: none;
+		}
+		
+		[part=&quot;tab-list&quot;] { 
+			display: flex; 
+			overflow: hidden;
+			white-space: nowrap;
+		}
+	&lt;/style&gt;
+	&lt;div part=&quot;tab-bar&quot;&gt;
+		&lt;!-- The region/tablist should have a label --&gt;
+		&lt;div part=&quot;tab-list&quot; role=&quot;tablist&quot;&gt;&lt;slot name=&quot;tabListSlot&quot;&gt;&lt;/slot&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;content part=&quot;content-panels&quot;&gt;
+		&lt;slot default&gt;&lt;/slot&gt;
+	&lt;/content&gt;
+	`</span>;
+
+  <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RegionSet</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">MediaAffordancesElement</span> </span>{
+    __defaults;
+    __tabListEl;
+
+    <span class="hljs-comment">// tabs and exclusive collapses should have the same affordance object?</span>
+    __affordanceConf = {
+      <span class="hljs-attr">collapse</span>: {
+        <span class="hljs-comment">// can take a condition to force, check-like</span>
+        <span class="hljs-attr">toggle</span>: <span class="hljs-function">(<span class="hljs-params">label, condition</span>) =&gt;</span> {
+          <span class="hljs-keyword">let</span> state =
+            <span class="hljs-keyword">typeof</span> condition === <span class="hljs-string">&#x27;boolean&#x27;</span>
+              ? condition
+              : !label.affordanceState.expanded;
+
+          <span class="hljs-keyword">let</span> contentEl = label.nextElementSibling;
+
+          label.affordanceState.expanded = state;
+          label.affordanceState.nonExclusiveExpanded = state;
+
+          label.setAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>, state);
+
+          <span class="hljs-keyword">if</span> (state) {
+            label.setAttribute(<span class="hljs-string">&#x27;expanded&#x27;</span>, <span class="hljs-string">&#x27;&#x27;</span>);
+
+            contentEl.classList.remove(<span class="hljs-string">&#x27;hide&#x27;</span>);
+          } <span class="hljs-keyword">else</span> {
+            label.removeAttribute(<span class="hljs-string">&#x27;expanded&#x27;</span>);
+
+            contentEl.classList.add(<span class="hljs-string">&#x27;hide&#x27;</span>);
+          }
+        },
+      },
+      <span class="hljs-string">&#x27;exclusive-collapse&#x27;</span>: {
+        <span class="hljs-comment">// ignores condition, radio-like</span>
+        <span class="hljs-attr">toggle</span>: <span class="hljs-function">(<span class="hljs-params">label</span>) =&gt;</span> {
+          <span class="hljs-keyword">let</span> labels = getLabels(label.parentElement);
+          <span class="hljs-keyword">let</span> siblings = labels.filter(<span class="hljs-function">(<span class="hljs-params">c</span>) =&gt;</span> c !== label);
+          <span class="hljs-keyword">let</span> index = labels.findIndex(<span class="hljs-function">(<span class="hljs-params">c</span>) =&gt;</span> c === label);
+
+          siblings.forEach(<span class="hljs-function">(<span class="hljs-params">sibLabel, i</span>) =&gt;</span> {
+            <span class="hljs-keyword">let</span> relatedContent = sibLabel.nextElementSibling;
+
+            relatedContent.classList.add(<span class="hljs-string">&#x27;hide&#x27;</span>);
+
+            sibLabel.tabIndex = -<span class="hljs-number">1</span>;
+            sibLabel.setAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>, <span class="hljs-string">&#x27;false&#x27;</span>);
+            sibLabel.affordanceState.exclusiveExpanded = <span class="hljs-literal">false</span>;
+          });
+
+          label.tabIndex = <span class="hljs-number">0</span>;
+          label.parentElement.affordanceState.exclusiveSelection.index = index; <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> nope, fix/remove this?</span>
+          label.nextElementSibling.classList.remove(<span class="hljs-string">&#x27;hide&#x27;</span>);
+          label.setAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>, <span class="hljs-string">&#x27;true&#x27;</span>);
+          label.affordanceState.exclusiveExpanded = <span class="hljs-literal">true</span>;
+          label.focus();
+        },
+      },
+      <span class="hljs-string">&#x27;tab-bar&#x27;</span>: {
+        <span class="hljs-comment">// ignores condition, radio-like</span>
+        <span class="hljs-attr">toggle</span>: <span class="hljs-function">(<span class="hljs-params">label</span>) =&gt;</span> {
+          <span class="hljs-keyword">let</span> labels = getLabels(label.parentElement);
+          <span class="hljs-keyword">let</span> siblings = labels.filter(<span class="hljs-function">(<span class="hljs-params">c</span>) =&gt;</span> c !== label);
+          <span class="hljs-keyword">let</span> index = labels.findIndex(<span class="hljs-function">(<span class="hljs-params">c</span>) =&gt;</span> c === label);
+
+          siblings.forEach(<span class="hljs-function">(<span class="hljs-params">sibLabel, i</span>) =&gt;</span> {
+            <span class="hljs-keyword">let</span> relatedContent = sibLabel.nextElementSibling;
+
+            relatedContent.classList.add(<span class="hljs-string">&#x27;hide&#x27;</span>);
+
+            sibLabel.tabIndex = -<span class="hljs-number">1</span>;
+            sibLabel.setAttribute(<span class="hljs-string">&#x27;aria-selected&#x27;</span>, <span class="hljs-string">&#x27;false&#x27;</span>);
+            sibLabel.affordanceState.exclusiveExpanded = <span class="hljs-literal">false</span>;
+          });
+
+          label.tabIndex = <span class="hljs-number">0</span>;
+          label.parentElement.affordanceState.exclusiveSelection.index = index;
+          label.nextElementSibling.classList.remove(<span class="hljs-string">&#x27;hide&#x27;</span>);
+          label.setAttribute(<span class="hljs-string">&#x27;aria-selected&#x27;</span>, <span class="hljs-string">&#x27;true&#x27;</span>);
+          label.affordanceState.exclusiveExpanded = <span class="hljs-literal">true</span>;
+          label.focus();
+        },
+      },
+    };
+
+    __setSize = <span class="hljs-function">(<span class="hljs-params">labelEls, contentEls</span>) =&gt;</span> {
+      <span class="hljs-built_in">this</span>.__size = <span class="hljs-built_in">Math</span>.min(labelEls.length, contentEls.length);
+
+      <span class="hljs-keyword">if</span> (labelEls.length !== <span class="hljs-built_in">this</span>.__size) {
+        <span class="hljs-built_in">console</span>.warn(<span class="hljs-string">&#x27;mismatch in tab-set label/content pairs...&#x27;</span>);
+      }
+
+      labelEls.forEach(<span class="hljs-function">(<span class="hljs-params">labelEl, i</span>) =&gt;</span> {
+        <span class="hljs-keyword">let</span> contentEl = contentEls[i];
+
+        <span class="hljs-keyword">if</span> (!labelEl.initialized) {
+          labelEl.initialized = <span class="hljs-literal">true</span>; <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> this used to be shadow, do i need it?</span>
+
+          <span class="hljs-keyword">let</span> defs = <span class="hljs-built_in">this</span>.__defaults.defaultActive;
+
+          <span class="hljs-comment">// this assumes it is about collapses</span>
+          labelEl.affordanceState = {
+            <span class="hljs-attr">expanded</span>: defs.includes(labelEl),
+            <span class="hljs-attr">active</span>: <span class="hljs-literal">false</span>,
+            <span class="hljs-comment">// activate in the current mode</span>
+            <span class="hljs-attr">activate</span>: <span class="hljs-function">() =&gt;</span> {
+              <span class="hljs-keyword">if</span> (<span class="hljs-built_in">this</span>.affordanceState.current) {
+                <span class="hljs-built_in">this</span>.__affordanceConf[<span class="hljs-built_in">this</span>.affordanceState.current].toggle(
+                  labelEl
+                );
+              }
+            },
+          };
+
+          <span class="hljs-keyword">let</span> defaultExclusive =
+            defs.length === <span class="hljs-number">0</span> ? labelEls[<span class="hljs-number">0</span>] : defs[defs.length - <span class="hljs-number">1</span>];
+
+          <span class="hljs-built_in">this</span>.affordanceState.exclusiveSelection.index =
+            labelEls.indexOf(defaultExclusive);
+        }
+        labelEl.setMode = <span class="hljs-function">(<span class="hljs-params">mode</span>) =&gt;</span> {
+          <span class="hljs-keyword">if</span> (mode === <span class="hljs-string">&#x27;non-exclusive&#x27;</span>) {
+            <span class="hljs-keyword">let</span> isExpanded = labelEl.affordanceState.expanded;
+
+            labelEl.setAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>, <span class="hljs-string">&#x27;collapse&#x27;</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;tabindex&#x27;</span>, <span class="hljs-string">&#x27;0&#x27;</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>, contentEl.id);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;role&#x27;</span>, <span class="hljs-string">&#x27;button&#x27;</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>, isExpanded);
+
+            labelEl.nextElementSibling.classList.toggle(<span class="hljs-string">&#x27;hide&#x27;</span>, !isExpanded);
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (mode === <span class="hljs-string">&#x27;exclusive&#x27;</span>) {
+            <span class="hljs-keyword">let</span> isExpanded =
+              labelEls.indexOf(labelEl) ===
+              <span class="hljs-built_in">this</span>.affordanceState.exclusiveSelection.index;
+
+            labelEl.setAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>, <span class="hljs-string">&#x27;collapse&#x27;</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;tabindex&#x27;</span>, isExpanded ? <span class="hljs-number">0</span> : -<span class="hljs-number">1</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;role&#x27;</span>, <span class="hljs-string">&#x27;button&#x27;</span>);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>, isExpanded);
+            labelEl.setAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>, contentEl.id);
+
+            labelEl.nextElementSibling.classList.toggle(<span class="hljs-string">&#x27;hide&#x27;</span>, !isExpanded);
+          } <span class="hljs-keyword">else</span> {
+            labelEl.removeAttribute(<span class="hljs-string">&#x27;tabIndex&#x27;</span>);
+            labelEl.removeAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>);
+            labelEl.removeAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>);
+            labelEl.removeAttribute(<span class="hljs-string">&#x27;role&#x27;</span>);
+          }
+        };
+      });
+    };
+
+    __projectTabBar = <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-built_in">this</span>.__removeProjections();
+
+      getLabels(<span class="hljs-built_in">this</span>).forEach(<span class="hljs-function">(<span class="hljs-params">tabSource, i</span>) =&gt;</span> {
+        <span class="hljs-keyword">let</span> selected = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">let</span> tabIndex = -<span class="hljs-number">1</span>;
+
+        tabSource.setMode();
+        tabSource.slot = <span class="hljs-string">&#x27;tabListSlot&#x27;</span>;
+        tabSource.setAttribute(<span class="hljs-string">&#x27;role&#x27;</span>, <span class="hljs-string">&#x27;tab&#x27;</span>);
+
+        <span class="hljs-keyword">let</span> contentSource = tabSource.nextElementSibling;
+
+        contentSource.tabIndex = <span class="hljs-number">0</span>;
+
+        tabSource.setAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>, ensureId(contentSource));
+
+        contentSource.setAttribute(<span class="hljs-string">&#x27;role&#x27;</span>, <span class="hljs-string">&#x27;tabpanel&#x27;</span>);
+        contentSource.setAttribute(<span class="hljs-string">&#x27;aria-labelledby&#x27;</span>, tabSource.id);
+
+        <span class="hljs-keyword">if</span> (i === <span class="hljs-built_in">this</span>.affordanceState.exclusiveSelection.index) {
+          tabIndex = <span class="hljs-number">0</span>;
+          selected = <span class="hljs-literal">true</span>;
+        }
+
+        tabSource.setAttribute(<span class="hljs-string">&#x27;aria-selected&#x27;</span>, selected);
+        tabSource.tabIndex = tabIndex;
+
+        contentSource.classList.toggle(<span class="hljs-string">&#x27;hide&#x27;</span>, !selected);
+
+        <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> aria-orientation :(</span>
+      });
+    };
+
+    __projectCollapses = <span class="hljs-function">(<span class="hljs-params">exclusive</span>) =&gt;</span> {
+      <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> remove projections and... ??</span>
+      <span class="hljs-built_in">this</span>.__removeProjections();
+
+      getLabels(<span class="hljs-built_in">this</span>).forEach(<span class="hljs-function">(<span class="hljs-params">label</span>) =&gt;</span> {
+        label.setMode(exclusive ? <span class="hljs-string">&#x27;exclusive&#x27;</span> : <span class="hljs-string">&#x27;non-exclusive&#x27;</span>);
+      });
+    };
+
+    __removeProjections = <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-built_in">Array</span>.from(<span class="hljs-built_in">this</span>.children, <span class="hljs-function">(<span class="hljs-params">child</span>) =&gt;</span> {
+        child.removeAttribute(<span class="hljs-string">&#x27;slot&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;role&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;aria-selected&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;tabindex&#x27;</span>);
+        child.removeAttribute(<span class="hljs-string">&#x27;aria-expanded&#x27;</span>);
+
+        child.classList.remove(<span class="hljs-string">&#x27;hide&#x27;</span>);
+      });
+    };
+
+    <span class="hljs-comment">// matching pairs</span>
+    __size = <span class="hljs-number">0</span>;
+
+    __configure = <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-comment">// hmmm</span>
+
+      <span class="hljs-built_in">this</span>.__setSize(getLabels(<span class="hljs-built_in">this</span>), getContentEls(<span class="hljs-built_in">this</span>));
+
+      <span class="hljs-keyword">if</span> (<span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;tab-bar&#x27;</span>) {
+        <span class="hljs-built_in">this</span>.affordanceState.currentMode = <span class="hljs-string">&#x27;exclusive&#x27;</span>;
+        <span class="hljs-built_in">this</span>.__projectTabBar();
+      } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;collapse&#x27;</span>) {
+        <span class="hljs-built_in">this</span>.affordanceState.currentMode = <span class="hljs-string">&#x27;non-exclusive&#x27;</span>;
+        <span class="hljs-built_in">this</span>.__projectCollapses();
+      } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;exclusive-collapse&#x27;</span>) {
+        <span class="hljs-built_in">this</span>.affordanceState.currentMode = <span class="hljs-string">&#x27;exclusive&#x27;</span>;
+        <span class="hljs-built_in">this</span>.__projectCollapses(<span class="hljs-literal">true</span>);
+      } <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">this</span>.affordanceState.currentMode = <span class="hljs-literal">undefined</span>;
+        <span class="hljs-built_in">this</span>.__removeProjections();
+      }
+
+      <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> hmm, these are DOM changes, we could cache them</span>
+      <span class="hljs-keyword">let</span> labelEls = getLabels(<span class="hljs-built_in">this</span>);
+
+      <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-built_in">this</span>.__size; i++) {
+        <span class="hljs-keyword">let</span> label = labelEls[i];
+
+        <span class="hljs-comment">// probably add one handler that decides</span>
+        <span class="hljs-keyword">if</span> (!label._inited) {
+          label.addEventListener(<span class="hljs-string">&#x27;click&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">evt</span>) =&gt;</span> {
+            evt.target.affordanceState.activate();
+          });
+
+          label._inited = <span class="hljs-literal">true</span>;
+        }
+      }
+    };
+
+    __childListObserver = <span class="hljs-keyword">new</span> MutationObserver(<span class="hljs-function">(<span class="hljs-params">mutationList</span>) =&gt;</span> {
+      <span class="hljs-comment">// we have to wire up new elements</span>
+      <span class="hljs-keyword">let</span> labelEls = getLabels(<span class="hljs-built_in">this</span>);
+      <span class="hljs-keyword">let</span> contentEls = getContentEls(<span class="hljs-built_in">this</span>);
+
+      <span class="hljs-comment">// what if there is a mismatch?</span>
+      <span class="hljs-built_in">this</span>.__setSize(labelEls, contentEls);
+      <span class="hljs-built_in">this</span>.__configure();
+    });
+
+    __tabset;
+
+    affordanceState = {
+      <span class="hljs-attr">exclusiveSelection</span>: { <span class="hljs-attr">index</span>: <span class="hljs-literal">undefined</span> },
+      <span class="hljs-attr">current</span>: <span class="hljs-literal">undefined</span>,
+      <span class="hljs-attr">currentMode</span>: <span class="hljs-literal">undefined</span>,
+      <span class="hljs-attr">getLabels</span>: <span class="hljs-function">() =&gt;</span> {
+        <span class="hljs-keyword">return</span> getLabels(<span class="hljs-built_in">this</span>);
+      },
+    };
+
+    honourFragmentLink = <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-keyword">let</span> labels = getLabels(<span class="hljs-built_in">this</span>);
+
+      <span class="hljs-keyword">if</span> (location.hash &amp;&amp; <span class="hljs-built_in">this</span>.querySelector(location.hash)) {
+        <span class="hljs-comment">// try to find a label with this ID, or controlled content</span>
+        <span class="hljs-comment">// that contains an element with this ID</span>
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; labels.length; i++) {
+          <span class="hljs-keyword">let</span> relevantContent =
+            labels[i].getAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>) &amp;&amp;
+            <span class="hljs-built_in">this</span>.querySelector(<span class="hljs-string">`#<span class="hljs-subst">${labels[i].getAttribute(<span class="hljs-string">&#x27;aria-controls&#x27;</span>)}</span>`</span>);
+
+          <span class="hljs-keyword">if</span> (
+            labels[i] === <span class="hljs-built_in">this</span>.querySelector(location.hash) ||
+            (relevantContent &amp;&amp; relevantContent.querySelector(location.hash))
+          ) {
+            labels[i].affordanceState.activate();
+
+            <span class="hljs-keyword">return</span>;
+          }
+        }
+      }
+    };
+
+    <span class="hljs-comment">// wires up supported affordances</span>
+    <span class="hljs-function"><span class="hljs-title">constructor</span>(<span class="hljs-params"></span>)</span> {
+      <span class="hljs-built_in">super</span>();
+
+      <span class="hljs-built_in">this</span>.supportedAffordances.add(<span class="hljs-string">&#x27;tab-bar&#x27;</span>);
+      <span class="hljs-built_in">this</span>.supportedAffordances.add(<span class="hljs-string">&#x27;collapse&#x27;</span>);
+      <span class="hljs-built_in">this</span>.supportedAffordances.add(<span class="hljs-string">&#x27;exclusive-collapse&#x27;</span>);
+
+      <span class="hljs-keyword">let</span> checkDefaults = <span class="hljs-function">() =&gt;</span> {
+        <span class="hljs-keyword">if</span> (!<span class="hljs-built_in">this</span>.__defaults) {
+          <span class="hljs-built_in">this</span>.__defaults = {
+            <span class="hljs-attr">onMatch</span>: <span class="hljs-built_in">this</span>.hasAttribute(<span class="hljs-string">&#x27;defaults-on-match&#x27;</span>),
+            <span class="hljs-attr">defaultActive</span>: getLabels(<span class="hljs-built_in">this</span>).filter(<span class="hljs-function">(<span class="hljs-params">l</span>) =&gt;</span>
+              l.hasAttribute(<span class="hljs-string">&#x27;default-activate&#x27;</span>)
+            ),
+          };
+        }
+      };
+
+      <span class="hljs-built_in">this</span>.observeAffordanceChange(<span class="hljs-function">(<span class="hljs-params">matching, all</span>) =&gt;</span> {
+        <span class="hljs-keyword">if</span> (!<span class="hljs-built_in">this</span>.__defaults) {
+          <span class="hljs-built_in">this</span>.__defaults = {
+            <span class="hljs-attr">onMatch</span>: <span class="hljs-built_in">this</span>.hasAttribute(<span class="hljs-string">&#x27;defaults-on-match&#x27;</span>),
+            <span class="hljs-attr">defaultActive</span>: getLabels(<span class="hljs-built_in">this</span>).filter(<span class="hljs-function">(<span class="hljs-params">l</span>) =&gt;</span>
+              l.hasAttribute(<span class="hljs-string">&#x27;default-activate&#x27;</span>)
+            ),
+          };
+        }
+
+        <span class="hljs-built_in">this</span>.affordanceState.current = <span class="hljs-built_in">this</span>.getAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>);
+        <span class="hljs-built_in">this</span>.__configure();
+      });
+
+      <span class="hljs-built_in">this</span>.setActiveAffordance = <span class="hljs-function">(<span class="hljs-params">matching, all</span>) =&gt;</span> {
+        checkDefaults();
+
+        <span class="hljs-built_in">this</span>.setAttribute(<span class="hljs-string">&#x27;affordance&#x27;</span>, matching);
+
+        <span class="hljs-built_in">this</span>.affordanceState.current = matching;
+
+        <span class="hljs-built_in">this</span>.__configure();
+      };
+
+      <span class="hljs-built_in">this</span>.attachShadow({ <span class="hljs-attr">mode</span>: <span class="hljs-string">&#x27;open&#x27;</span> });
+
+      <span class="hljs-built_in">this</span>.shadowRoot.innerHTML = template;
+
+      <span class="hljs-built_in">this</span>.__tabListEl = <span class="hljs-built_in">this</span>.shadowRoot.querySelector(<span class="hljs-string">&quot;[part=&#x27;tab-list&#x27;]&quot;</span>);
+
+      <span class="hljs-built_in">this</span>.addEventListener(
+        <span class="hljs-string">&#x27;keydown&#x27;</span>,
+        <span class="hljs-function">(<span class="hljs-params">evt</span>) =&gt;</span> {
+          <span class="hljs-keyword">let</span> labels = getLabels(<span class="hljs-built_in">this</span>);
+          <span class="hljs-keyword">let</span> size = labels.length;
+          <span class="hljs-keyword">let</span> cur = <span class="hljs-built_in">this</span>.affordanceState.exclusiveSelection.index;
+          <span class="hljs-keyword">let</span> prev = cur === <span class="hljs-number">0</span> ? size - <span class="hljs-number">1</span> : cur - <span class="hljs-number">1</span>;
+          <span class="hljs-keyword">let</span> next = cur === size - <span class="hljs-number">1</span> ? <span class="hljs-number">0</span> : cur + <span class="hljs-number">1</span>;
+
+          <span class="hljs-comment">// don&#x27;t trap nested handling</span>
+          <span class="hljs-keyword">if</span> (evt.target.parentElement !== evt.currentTarget) {
+            <span class="hljs-keyword">return</span>;
+          }
+
+          <span class="hljs-keyword">if</span> (
+            <span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;tab-bar&#x27;</span> ||
+            <span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;exclusive-collapse&#x27;</span>
+          ) {
+            <span class="hljs-keyword">if</span> (evt.key === <span class="hljs-string">&#x27;ArrowLeft&#x27;</span> || evt.key === <span class="hljs-string">&#x27;ArrowUp&#x27;</span>) {
+              labels[prev].affordanceState.activate();
+              evt.preventDefault();
+            } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (evt.key === <span class="hljs-string">&#x27;ArrowRight&#x27;</span> || evt.key === <span class="hljs-string">&#x27;ArrowDown&#x27;</span>) {
+              labels[next].affordanceState.activate();
+              evt.preventDefault();
+            }
+          } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (
+            evt.key === <span class="hljs-string">&#x27; &#x27;</span> &amp;&amp;
+            <span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;collapse&#x27;</span>
+          ) {
+            evt.preventDefault();
+          }
+        },
+        <span class="hljs-literal">false</span>
+      );
+
+      <span class="hljs-built_in">this</span>.addEventListener(<span class="hljs-string">&#x27;keyup&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">evt</span>) =&gt;</span> {
+        <span class="hljs-keyword">if</span> (evt.key === <span class="hljs-string">&#x27; &#x27;</span> &amp;&amp; <span class="hljs-built_in">this</span>.affordanceState.current === <span class="hljs-string">&#x27;collapse&#x27;</span>) {
+          evt.target.closest(<span class="hljs-string">&#x27;[affordance]&#x27;</span>).affordanceState.activate();
+
+          evt.preventDefault();
+        }
+      });
+    }
+
+    <span class="hljs-function"><span class="hljs-title">connectedCallback</span>(<span class="hljs-params"></span>)</span> {
+      <span class="hljs-built_in">super</span>.connectedCallback();
+
+      <span class="hljs-comment">// <span class="hljs-doctag">TODO:</span> handle selection</span>
+      <span class="hljs-keyword">if</span> (location.hash) {
+        <span class="hljs-built_in">setTimeout</span>(<span class="hljs-built_in">this</span>.honourFragmentLink, <span class="hljs-number">1</span>);
+      }
+
+      <span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">&#x27;hashchange&#x27;</span>, <span class="hljs-built_in">this</span>.honourFragmentLink);
+
+      <span class="hljs-comment">// if you append a fragment with a pair, it should work</span>
+      <span class="hljs-built_in">this</span>.__childListObserver.observe(<span class="hljs-built_in">this</span>, { <span class="hljs-attr">childList</span>: <span class="hljs-literal">true</span> });
+    }
+  }
+
+  customElements.define(<span class="hljs-string">&#x27;spicy-sections&#x27;</span>, RegionSet);
+})();
+</pre>
+                            </code>
+                            
+                        </div>
+                    </span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">URL:</strong>
+                    <span class="Meta-value"><a data-no-pjax href="../raw/tabs/SpicySections.js"><span>/components/raw/tabs/SpicySections.js</span></a></span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Filesystem Path:</strong>
+                    <span class="Meta-value">components/02-components/tabs/SpicySections.js</span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Size:</strong>
+                    <span class="Meta-value">16.7 KB</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="FileBrowser-item" id="file-28da5135baee0a51ae62a53274bcd64c" data-role="resource-preview">
+            <ul class="Meta">
+                <li class="Meta-item">
+                    <strong class="Meta-key">Content:</strong>
+                    <span class="Meta-value">
+                        <div class="FileBrowser-itemPreview">
+                            
+                            <code class="Code Code--lang-CSS FileBrowser-code hljs">
+                                <pre><span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-selector-class">.dropdown</span> {
+  <span class="hljs-attribute">width</span>: fit-content;
+  <span class="hljs-attribute">display</span>: inline-block;
+}
+
+<span class="hljs-selector-class">.dropdown-content</span> {
+  <span class="hljs-attribute">display</span>: none;
+  <span class="hljs-attribute">position</span>: absolute;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  <span class="hljs-attribute">min-width</span>: <span class="hljs-number">160px</span>;
+  <span class="hljs-attribute">box-shadow</span>: <span class="hljs-number">0px</span> <span class="hljs-number">3px</span> <span class="hljs-number">6px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.25</span>);
+  <span class="hljs-attribute">z-index</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span> {
+  <span class="hljs-attribute">float</span>: none;
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">padding</span>: .<span class="hljs-number">5em</span>;
+  <span class="hljs-attribute">text-decoration</span>: none;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">text-align</span>: left;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+}
+
+<span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+}
+
+<span class="hljs-selector-class">.dropdown</span><span class="hljs-selector-pseudo">:hover</span> <span class="hljs-selector-class">.dropdown-content</span> {
+  <span class="hljs-attribute">display</span>: block;
+}
+
+<span class="hljs-selector-class">.nav-drop-gray</span> <span class="hljs-selector-class">.dropdown-content</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--white);
+}
+
+<span class="hljs-selector-class">.nav-drop-gray</span> <span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span>{
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--gray-<span class="hljs-number">700</span>-brand);
+}
+
+<span class="hljs-selector-class">.nav-drop-gray</span> <span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--gray-<span class="hljs-number">200</span>);
+}
+
+<span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.dropdown-content</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--white);
+}
+
+<span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+}
+
+<span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.dropdown-content</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--white);
+}
+
+<span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.btn-outline</span> {
+  <span class="hljs-attribute">border-color</span>: <span class="hljs-built_in">var</span>(--white);
+}
+
+<span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.btn-outline</span><span class="hljs-selector-pseudo">:hover</span>, <span class="hljs-selector-class">.nav-drop-primary</span> <span class="hljs-selector-class">.btn-outline</span><span class="hljs-selector-pseudo">:focus</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">border-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+}
+
+<span class="hljs-selector-tag">details</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">250px</span>;
+}
+
+<span class="hljs-selector-tag">summary</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">padding</span>: .<span class="hljs-number">5em</span>;
+}
+
+<span class="hljs-selector-class">.accordion-content</span> <span class="hljs-selector-tag">p</span>, <span class="hljs-selector-class">.faq-content</span> <span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">padding</span>: .<span class="hljs-number">5em</span>;
+}
+
+<span class="hljs-selector-class">.faq</span> {
+  <span class="hljs-attribute">border</span>: none;
+}
+
+<span class="hljs-selector-class">.faq</span> <span class="hljs-selector-tag">summary</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--gray-<span class="hljs-number">700</span>-brand);
+}
+
+<span class="hljs-selector-class">.faq-content</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--gray-<span class="hljs-number">700</span>-brand);
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+}
+
+spicy-sections {
+  <span class="hljs-comment">/* Big hand-wave over how we&#x27;d ultimately express this, but for this custom element, this is how you inform when you&#x27;d like to emply which affodances &#x27;collapse&#x27;, &#x27;tab-bar&#x27; and &#x27;exclusive-collapse&#x27; are the available affordances.  Anything else is, effectively &quot;plain&quot; or &quot;none&quot;. It is only read once.
+  */</span>
+  --const-mq-affordances: [screen and (max-width: <span class="hljs-number">40em</span>)] collapse | [screen and (min-width: <span class="hljs-number">60em</span>)] tab-bar;
+  <span class="hljs-attribute">display</span>: block;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+}
+
+<span class="hljs-comment">/* just normal css/dom any heading works */</span>
+<span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+}
+
+<span class="hljs-comment">/* you can tell there are none employed */</span>
+<span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:not</span>(<span class="hljs-selector-attr">[affordance]</span> *) {
+  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0.5em</span>;
+}
+
+<span class="hljs-comment">/* content panels when plain */</span>
+<span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:not</span>(<span class="hljs-selector-attr">[affordance]</span> *)<span class="hljs-selector-pseudo">:not</span>(<span class="hljs-selector-pseudo">:first</span>-child) {
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">1.5em</span>;
+}
+
+<span class="hljs-comment">/* content panels, always */</span>
+spicy-sections <span class="hljs-selector-tag">h2</span>+* {
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment">/* accordion buttons */</span>
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;collapse&quot;</span>]</span> {
+  --heading-size: <span class="hljs-number">1em</span>;
+}
+
+<span class="hljs-comment">/* the pseudo element created around the tabs, when it exists */</span>
+<span class="hljs-selector-pseudo">::part</span>(tab-list) {
+  <span class="hljs-attribute">display</span>: flex;
+}
+
+<span class="hljs-comment">/* only when they&#x27;re tabs */</span>
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;tab-bar&quot;</span>]</span> <span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0.5em</span>;
+  <span class="hljs-attribute">cursor</span>: pointer;
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--white);
+}
+
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;tab-bar&quot;</span>]</span> <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span> <span class="hljs-number">6px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">border-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+}
+
+<span class="hljs-comment">/* Only when they&#x27;re tabs and selected */</span>
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;tab-bar&quot;</span>]</span> <span class="hljs-selector-tag">h2</span><span class="hljs-selector-attr">[tabindex=<span class="hljs-string">&quot;0&quot;</span>]</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span> <span class="hljs-number">6px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--white);
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+}
+
+<span class="hljs-comment">/* Tabs that aren&#x27;t selected */</span>
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;tab-bar&quot;</span>]</span> <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:not</span>(<span class="hljs-selector-attr">[tabindex=<span class="hljs-string">&quot;0&quot;</span>]</span>) {
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+}
+
+<span class="hljs-comment">/* content, when it&#x27;s tabs */</span>
+<span class="hljs-selector-attr">[affordance=<span class="hljs-string">&quot;tab-bar&quot;</span>]</span> <span class="hljs-selector-attr">[role=<span class="hljs-string">&quot;tabpanel&quot;</span>]</span> {
+  <span class="hljs-attribute">border</span>: <span class="hljs-number">2px</span> solid <span class="hljs-built_in">var</span>(--purple-<span class="hljs-number">800</span>-brand);
+  <span class="hljs-attribute">padding</span>: .<span class="hljs-number">5em</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--gray-<span class="hljs-number">700</span>-brand);
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">0.25em</span>;
+  <span class="hljs-attribute">background-color</span>: white;
+}</pre>
+                            </code>
+                            
+                        </div>
+                    </span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">URL:</strong>
+                    <span class="Meta-value"><a data-no-pjax href="../raw/tabs/dropdowns.css"><span>/components/raw/tabs/dropdowns.css</span></a></span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Filesystem Path:</strong>
+                    <span class="Meta-value">components/02-components/tabs/dropdowns.css</span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Size:</strong>
+                    <span class="Meta-value">3.7 KB</span>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+
+
+    
+    <div class="Browser-panel Browser-notes" data-role="tab-panel" id="browser-a744360511c0d3e3505468787b43f7c1-panel-notes">
+    <div class="Prose Prose--condensed">
+        
+        <h3 id="usage-guidelines">Usage Guidelines</h3>
+<ul>
+<li>Use tabs to alternate between views within the same context</li>
+<li>Logically chunk the content behind the tabs so users can easily predict what they’ll find when they select a given tab</li>
+<li>Use sentence case</li>
+<li>Use concise, plain language tab labels</li>
+</ul>
+
+        
+    </div>
+</div>
+
+    
+
+</div>
+
+</div>
+
+
+    
+
+</div>
+
+
+            </div>
+        </div>
+
+        <div class="Frame-panel Frame-panel--sidebar" data-role="sidebar">
+            
+
+    
+    
+
+
+<nav class="Navigation" data-behaviour="navigation">
+    <div class="Navigation-panel Navigation-panel--main" data-role="main-panel">
+    
+        <div class="Navigation-group Navigation-search">
+    <form action="" class="Search" data-behaviour="search">
+        <label class="Search-label" for="search-input">Search</label>
+        <input class="Search-input" id="search-input" type="search" placeholder="Search…" data-role="input" autocomplete="off">
+        <button type="button" data-behaviour="clear-search" class="Search-clearButton" aria-label="Clear search" hidden>
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+</svg>
+
+        </button>
+    </form>
+</div>
+
+    
+        
+
+    
+    
+
+    
+    
+    <div class="Navigation-group">
+        
+<div class="Tree" data-behaviour="tree" id="tree-basics">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Basics</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./color--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="color"
+                data-handle="color"
+            >
+                <span>Color</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./typography.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="typography"
+                data-handle="typography"
+            >
+                <span>Typography</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+    </div>
+    
+
+    
+    
+    <div class="Navigation-group">
+        
+<div class="Tree" data-behaviour="tree" id="tree-components">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Components</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./accordion--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="accordion"
+                data-handle="accordion"
+            >
+                <span>Accordion</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button"
+                data-handle="button"
+            >
+                <span>Button</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./checkbox--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="checkbox"
+                data-handle="checkbox"
+            >
+                <span>Checkbox</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./download_card--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="download_card"
+                data-handle="download_card"
+            >
+                <span>Download Card</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./dropdown--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="dropdown"
+                data-handle="dropdown"
+            >
+                <span>Dropdown</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs"
+                data-handle="inputs"
+            >
+                <span>Inputs</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./radio_button--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="radio_button"
+                data-handle="radio_button"
+            >
+                <span>Radio Button</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./select--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="select"
+                data-handle="select"
+            >
+                <span>Select</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity is-current" data-state="current" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./tabs.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="tabs"
+                data-handle="tabs"
+            >
+                <span>Tabs</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+    </div>
+    
+
+
+    
+        
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-docs">
+    <div class="Tree-header">
+        <h3 class="Tree-title">documentation</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="../../index.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="index"
+                data-handle=""
+            >
+                <span>Overview</span>
+                
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="../../docs/editorial-style-guide.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="editorial-style-guide"
+                data-handle=""
+            >
+                <span>Editorial Style Guide</span>
+                
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="../../docs/voice-and-positioning.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="voice-and-positioning"
+                data-handle=""
+            >
+                <span>Voice And Positioning</span>
+                
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+    
+        
+
+    
+        
+<div class="Navigation-group">
+    <div class="Tree">
+        <div class="Tree-header">
+            <h3 class="Tree-title">
+                Information
+            </h3>
+        </div>
+        <dl class="Tree-aside">
+            
+                <div>
+                    <dt class="Tree-asideTerm">Built on:</dt>
+                    <dd class="Tree-asideDescription">
+                        
+                            <time datetime="2023-03-18T19:42:17.315Z">
+                                3/18/2023
+                            </time>
+                        
+                    </dd>
+                </div>
+            
+        </dl>
+    </div>
+</div>
+
+
+    
+    </div>
+
+    
+    <div class="Navigation-panel Navigation-panel--variants" data-role="variant-panel">
+        <div class="Navigation-backButtonWrapper">
+            <button class="Navigation-backButton" data-role="back" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4 12C4 11.4477 4.44772 11 5 11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12Z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7071 4.29289C13.0976 4.68342 13.0976 5.31658 12.7071 5.70711L6.41421 12L12.7071 18.2929C13.0976 18.6834 13.0976 19.3166 12.7071 19.7071C12.3166 20.0976 11.6834 20.0976 11.2929 19.7071L4.29289 12.7071C3.90237 12.3166 3.90237 11.6834 4.29289 11.2929L11.2929 4.29289C11.6834 3.90237 12.3166 3.90237 12.7071 4.29289Z"/>
+</svg>
+
+                Back
+            </button>
+        </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="color">
+                
+<div class="Tree" data-behaviour="tree" id="tree-color-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Color Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./color--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="color--default"
+                data-handle="color"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./color--expanded_palette.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="color--expanded_palette"
+                data-handle="color"
+            >
+                <span>Expanded Palette</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="accordion">
+                
+<div class="Tree" data-behaviour="tree" id="tree-accordion-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Accordion Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./accordion--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="accordion--default"
+                data-handle="accordion"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./accordion--faq.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="accordion--faq"
+                data-handle="accordion"
+            >
+                <span>Faq</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="button">
+                
+<div class="Tree" data-behaviour="tree" id="tree-button-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Button Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--default"
+                data-handle="button"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--colors.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--colors"
+                data-handle="button"
+            >
+                <span>Colors</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--disabled.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--disabled"
+                data-handle="button"
+            >
+                <span>Disabled</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--icon.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--icon"
+                data-handle="button"
+            >
+                <span>Icon</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--icon_left.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--icon_left"
+                data-handle="button"
+            >
+                <span>Icon Left</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--icon_right.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--icon_right"
+                data-handle="button"
+            >
+                <span>Icon Right</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--large.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--large"
+                data-handle="button"
+            >
+                <span>Large</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--outline.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--outline"
+                data-handle="button"
+            >
+                <span>Outline</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--outline_colors.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--outline_colors"
+                data-handle="button"
+            >
+                <span>Outline Colors</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--small.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--small"
+                data-handle="button"
+            >
+                <span>Small</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./button--text.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="button--text"
+                data-handle="button"
+            >
+                <span>Text</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="checkbox">
+                
+<div class="Tree" data-behaviour="tree" id="tree-checkbox-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Checkbox Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./checkbox--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="checkbox--default"
+                data-handle="checkbox"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./checkbox--disabled.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="checkbox--disabled"
+                data-handle="checkbox"
+            >
+                <span>Disabled</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./checkbox--horizontal_group.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="checkbox--horizontal_group"
+                data-handle="checkbox"
+            >
+                <span>Horizontal Group</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./checkbox--vertical_group.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="checkbox--vertical_group"
+                data-handle="checkbox"
+            >
+                <span>Vertical Group</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="download_card">
+                
+<div class="Tree" data-behaviour="tree" id="tree-download_card-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Download Card Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./download_card--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="download_card--default"
+                data-handle="download_card"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./download_card--horizontal.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="download_card--horizontal"
+                data-handle="download_card"
+            >
+                <span>Horizontal</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./download_card--link.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="download_card--link"
+                data-handle="download_card"
+            >
+                <span>Link</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./download_card--link_group.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="download_card--link_group"
+                data-handle="download_card"
+            >
+                <span>Link Group</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="dropdown">
+                
+<div class="Tree" data-behaviour="tree" id="tree-dropdown-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Dropdown Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./dropdown--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="dropdown--default"
+                data-handle="dropdown"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./dropdown--nav_gray.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="dropdown--nav_gray"
+                data-handle="dropdown"
+            >
+                <span>Nav Gray</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./dropdown--nav_primary.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="dropdown--nav_primary"
+                data-handle="dropdown"
+            >
+                <span>Nav Primary</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="inputs">
+                
+<div class="Tree" data-behaviour="tree" id="tree-inputs-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Inputs Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--default"
+                data-handle="inputs"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--disabled.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--disabled"
+                data-handle="inputs"
+            >
+                <span>Disabled</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--email.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--email"
+                data-handle="inputs"
+            >
+                <span>Email</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--error.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--error"
+                data-handle="inputs"
+            >
+                <span>Error</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--help_text.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--help_text"
+                data-handle="inputs"
+            >
+                <span>Help Text</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./inputs--search.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="inputs--search"
+                data-handle="inputs"
+            >
+                <span>Search</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="radio_button">
+                
+<div class="Tree" data-behaviour="tree" id="tree-radio_button-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Radio Button Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./radio_button--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="radio_button--default"
+                data-handle="radio_button"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./radio_button--disabled.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="radio_button--disabled"
+                data-handle="radio_button"
+            >
+                <span>Disabled</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./radio_button--horizontal_group.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="radio_button--horizontal_group"
+                data-handle="radio_button"
+            >
+                <span>Horizontal Group</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./radio_button--vertical_group.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="radio_button--vertical_group"
+                data-handle="radio_button"
+            >
+                <span>Vertical Group</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+            
+            <div class="Navigation-group" data-role="variant-group" data-component="select">
+                
+<div class="Tree" data-behaviour="tree" id="tree-select-variants">
+    <div class="Tree-header">
+        <h3 class="Tree-title">Select Variants</h3>
+
+        <button type="button" data-behaviour="collapse-tree" class="Tree-collapse" title="Collapse tree" aria-label="Collapse tree" hidden>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9 11c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1z"/><path d="m19 21h-14c-1.1 0-2-.9-2-2v-14c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2zm-14-16v14h14v-14z"/></svg>
+
+        </button>
+    </div>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./select--default.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="select--default"
+                data-handle="select"
+            >
+                <span>Default</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a
+                class="Tree-entityLink"
+                href="./select--disabled.html"
+                data-role="tree-link"
+                
+                data-pjax
+                data-test="select--disabled"
+                data-handle="select"
+            >
+                <span>Disabled</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #84BD00;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+            </div>
+        
+    
+        
+    
+        
+    
+
+
+    </div>
+    
+</nav>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.10.2"></script>
+
+
+
+</body>
+</html>
